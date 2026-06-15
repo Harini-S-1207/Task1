@@ -17,14 +17,19 @@ img{
     }
 }
 video{
-    height: 200px;
+    display: block;
+    height: 130px;
     width: 250px;
+    padding: 0;
+    margin: 0;
     border: 10px solid #4d056e;
 }
 @media(max-width: 600px){
     video{
         height: auto;
         width: 100%;
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -107,5 +112,5 @@ button{
     padding: 2px;
 }
 button:hover{
-    background-color: #9026c1;
+    background-color: #4d056e;
 }
